@@ -1,0 +1,22 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "vaffan bot est le bot de la vaffan squad",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "express": "^4.16.2",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vaffan",
+    "squad",
+    "bot"
+  ],
+  "author": "omega",
+  "license": "ISC"
+}

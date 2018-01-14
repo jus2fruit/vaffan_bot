@@ -1,0 +1,23 @@
+{
+    "store_items": [
+        {
+            "itemID": "item0001",
+            "name": "rouge",
+            "desc": "pseudo rouge",
+            "price": "100"
+        },
+         {
+            "itemID": "item0002",
+            "name": "bleu",
+            "desc": "pseudo bleu",
+            "price": "150"
+         },
+          {
+            "itemID": "item0003",
+            "name": "couleur aux choix",
+            "desc": "couleur pseudo aux choix",
+            "price": "500"
+          }
+    ]     
+ 
+}
