@@ -10,13 +10,6 @@ const storedb = low(storeadatper)
 const express = require('express');
 const app = express();
 
-//DEBUT PARAGRAPHE HEROKU
-app.set('port', (process.env.PORT || 5000))
-
-app.listen(app.get('port'), function(){
-    console.log(`bot en fonctionnement sur le port ${app.get('port')}`)
-})
-
 var bot = new discord.Client();
 var prefix = ("/");
 var randnum = 0;
@@ -26,7 +19,7 @@ bot.on('ready', () => {
     console.log ("bot ready !")
 });
 
-bot.login('NDAxNTM2MTkxNDgyMTY3MzE2.DTrnQA.L3CyMFTHaDAp8c7FtppWVHvsW_s');
+bot.login('process.env.TOKEN');
 
 bot.on ('message' , message => {
     if (message.content === "ping"){
